@@ -1,5 +1,5 @@
 require File.join(File.dirname(__FILE__), "..", "lib", "gilded_rose")
-require "pry"
+
 RSpec.describe GildedRose do
   let(:items) {
     [
